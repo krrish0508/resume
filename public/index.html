@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishnaraj Portfolio</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <!-- Particle Background Container -->
+  <div id="particles-js"></div>
+
+  <!-- React Root -->
+  <div id="root"></div>
+
+  <!-- particles.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+  <!-- particles.js configuration -->
+  <script>
+    particlesJS.load('particles-js', '/particles.json', function() {
+      console.log('particles.js loaded');
+    });
+  </script>
+
+  <!-- React Bundle (Vite/Parcel/Webpack will handle this in real setup) -->
+  <script type="module" src="/main.jsx"></script>
+</body>
+</html>
